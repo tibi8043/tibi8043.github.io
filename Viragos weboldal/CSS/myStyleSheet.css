@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  background-color: #e0e2ed;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+}
+table {
+  margin: 0;
+}
+#tablazat {
+  max-width: 850px;
+  margin: 0;
+}
+.foSzoveg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#megjelenoFoSzoveg {
+  color: rgb(43, 26, 44);
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  animation: megjelenes 2s linear forwards;
+}
+td {
+  font-size: 20px;
+  padding: 20px;
+}
+#dropdownList {
+  margin: 10px;
+  width: 100px;
+}
+#logo {
+  position: relative;
+  margin: 10px;
+}
+#logo img {
+  width: 100px;
+  height: 100px;
+}
+a.items {
+  text-decoration: none;
+  color: rgb(43, 26, 44);
+}
+#tablazat td {
+  transition: all 0.2s ease-in-out;
+}
+#tablazat td:hover {
+  transform: scale(1.1);
+}
+.megjelenoSzoveg {
+  bottom: 10%;
+  left: -30px;
+  font-family: "Indie Flower", cursive;
+}
+h5 {
+  font-family: "Courgette", cursive;
+  color: rgb(43, 26, 44);
+}
+
+#megjelenoSzovegH2 {
+  text-align: center;
+
+  font-family: "Indie Flower", cursive;
+  animation: szoveg 4s linear forwards;
+}
+#login {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#loginFooter {
+  background-color: #d0d3e4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#visszaAFoOldalra {
+  text-align: center;
+}
+#visszaAFoOldalra a {
+  text-decoration: none;
+}
+
+#slider {
+  width: 622px;
+  height: 350px;
+  margin: 0 auto;
+}
+@keyframes szoveg {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes megjelenes {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main {
+  width: 1000px;
+  margin: 20px auto;
+  font-size: 20px;
+  
+}
+@media (max-width: 1500px){
+  .main {
+    width: 1000px;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+.card {
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #babfdd75;
+}
+
+.main p {
+  
+  text-align: justify;
+}
+h1 {
+  font-family: "Courgette", cursive;
+  color: rgb(43, 26, 44);
+}
+header h2 {
+  font-family: "Courgette", cursive;
+  color: rgb(43, 26, 44);
+  margin-top: 40px;
+}
+
+#kep {
+  text-align: center;
+  padding: 10px;
+}
+#kep img {
+  width: 60%;
+  height: 60%;
+  border: 2px solid white;
+}
+#bal {
+  position: fixed;
+  left: 0;
+  margin-top: 25px;
+  z-index: -1;
+}
+#bal img {
+  width: 250px;
+  height: 450px;
+  z-index: -1;
+  transition: .4s;
+}
+
+@media (max-width: 1500px) {
+  #bal img {
+    display: none;
+    visibility: hidden;
+    width: 250px;
+    height: 450px;
+    z-index: -1;
+    
+  }
+}
+
+#jobb {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  margin-top: 25px;
+}
+#jobb img {
+  width: 250px;
+  height: 450px;
+  z-index: -1;
+  
+}
+@media (max-width: 1500px) {
+  #jobb img {
+    width: 250px;
+    height: 450px;
+    z-index: -1;
+    visibility: hidden;
+    display: none;
+    
+  }
+}
+
+
+#urlap {
+  border-radius: 20px;
+  padding: 80px;
+  background-color: rgba(157, 153, 181, 0.6);
+  margin: 50px auto;
+  width: 400px;
+  height: 570px;
+}
+
+#urlap h2 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+}
+
+#gomb {
+  margin-left: 50px;
+}
+
+#urlap img {
+  width: 90px;
+  height: 90px;
+  margin-left: 70px;
+}
+.kozepre {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main h2 {
+  font-family: "Courgette", cursive;
+  color: rgb(43, 26, 44);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #d0d3e4;
+}
+
+.kartya {
+  background-color: #d0d3e4;
+}
+.rovidLeiras {
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+}
+.card-body img {
+  width: 45px;
+  height: 45px;
+}
+#jelmagyarazat img {
+  width: 30px;
+  height: 30px;
+}
+#jelmagyarazat td {
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-right: 1px solid rgb(43, 26, 44);
+  border-left: 1px solid rgb(43, 26, 44);
+}
+#jelmagyarazat td img {
+  float: right;
+}
+
+#szenecio {
+  display: block;
+}
