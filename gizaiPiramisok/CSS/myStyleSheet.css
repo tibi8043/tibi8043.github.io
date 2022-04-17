@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+:root {
+  --bg: #e4ceaf;
+  --betu: #562a0e;
+  --aktualis: --betu;
+  --lista: #d09259;
+}
+
+body {
+  background-image: url(../Images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+.header h5 {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  
+}
+.header {
+  background-color: var(--bg);
+  border: 0;
+}
+.leiras {
+  font-size: 20px;
+  color: var(--betu);
+  text-align: justify;
+}
+.doboz {
+  background-color: #e4ceaf5e;
+}
+.footer {
+  background-color: var(--bg);
+}
+li a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: var(--betu);
+}
+a {
+    color: var(--betu);
+}
+
+.kartya{
+    background-color: #e3e1c9ad;
+}
+
+a:disabled,
+a[disabled]{
+  color: red;
+}
