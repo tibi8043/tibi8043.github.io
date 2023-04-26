@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-image: url(../Images/Képernyőkép\ 2022-04-18\ 131914.png);
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+.box {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+header h1 {
+  margin: 0;
+  padding: 20px;
+  color: aliceblue;
+  font-size: 60px;
+  font-family: cursive;
+  font-weight: 700;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-image: url(../Images/Irsai_Olivér-szőlő-bor-pálinka-gyümölcs-fa-csemete-oltvány-konténeres-nemes-cserepes-szabadgyökerű-finom-fürtös-ára-www.koronakert.hu_.png);
+  height: 250px;
+}
+.bevezeto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.bevezeto p {
+  color: rgb(79, 95, 80);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0;
+  font-style: italic;
+  font-family: "Bookman Old Style";
+}
+.bevezeto img {
+  max-width: 70px;
+  max-height: auto;
+}
+#elso {
+  transform: scaleX(-1);
+}
+.szoveg {
+  margin: 20px 0;
+}
+.szoveg h2 {
+  color: rgb(37, 51, 51);
+  padding: 0 20px;
+}
+.szoveg p {
+  padding: 0 30px;
+  text-align: justify;
+}
+.jellemzok {
+  margin: 50px 0;
+}
+.jellemzok h2 {
+  text-align: center;
+}
+#kep {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#kep img {
+  width: 800px;
+}
+#kep p {
+  margin-top: 5px;
+  font-style: italic;
+}
